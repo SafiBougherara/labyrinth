@@ -1,0 +1,44 @@
+body { 
+    background-color: rgb(18, 11, 24);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+h3 {
+    color: rgb(96, 14, 203);
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+h4 {
+    color: rgb(203, 14, 14);
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+h5 {
+    color: rgb(14, 108, 203);
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.child{
+    flex-basis: 20%;
+}
